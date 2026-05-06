@@ -1,0 +1,68 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Ford Developer API
+  description: The Ford Developer API provides access to connected vehicle data, allowing developers to build applications
+    that interact with Ford vehicles. It includes APIs for vehicle status, location, remote commands, and diagnostics.
+  tags:
+  - Ford
+  - Motor
+  - API
+  created: '2026-05-06'
+  modified: '2026-05-06'
+capability:
+  consumes:
+  - type: http
+    namespace: ford-motor
+    baseUri: https://api.ford.com
+    description: Ford Developer API HTTP API.
+    authentication:
+      type: bearer
+      token: '{{FORD_MOTOR_TOKEN}}'
+    resources:
+    - name: status
+      path: /status
+      operations:
+      - name: getstatus
+        method: GET
+        description: Get API status
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+  exposes:
+  - type: rest
+    port: 8080
+    namespace: ford-motor-rest
+    description: REST adapter for Ford Developer API.
+    resources:
+    - path: /status
+      name: getstatus
+      operations:
+      - method: GET
+        name: getstatus
+        description: Get API status
+        call: ford-motor.getstatus
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    port: 9090
+    namespace: ford-motor-mcp
+    transport: http
+    description: MCP adapter for Ford Developer API for AI agent use.
+    tools:
+    - name: getstatus
+      description: Get API status
+      hints:
+        readOnly: true
+        destructive: false
+        idempotent: true
+      call: ford-motor.getstatus
+      outputParameters:
+      - type: object
+        mapping: $.
+binds:
+- namespace: env
+  keys:
+    FORD_MOTOR_TOKEN: FORD_MOTOR_TOKEN
