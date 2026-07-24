@@ -1,32 +1,27 @@
 openapi: 3.1.0
 info:
-  title: Ford Developer API
-  description: >-
-    The Ford Developer API provides access to connected vehicle data, allowing developers to build applications that interact with Ford vehicles. It includes APIs for vehicle status, location, remote commands, and diagnostics.
+  title: Ford Developer Automotive API
+  description: The Ford Developer API provides access to connected vehicle data, allowing developers to build applications that interact with Ford vehicles. It includes APIs for vehicle status, location, remote commands, and diagnostics.
   version: '1.0'
   contact:
     name: Ford Motor Developer Support
     url: https://developer.ford.com/
-externalDocs:
-  description: Documentation
-  url: https://developer.ford.com/
 servers:
-  - url: https://api.ford.com
-    description: Production
-tags:
-  - name: Automotive
-    description: Automotive operations
+- url: https://api.ford.com
+  description: Production
 security:
-  - bearerAuth: []
+- bearerAuth: []
+tags:
+- name: Automotive
+  description: Automotive operations
 paths:
   /status:
     get:
       operationId: getStatus
       summary: Get API status
-      description: >-
-        Returns the current status of the API.
+      description: Returns the current status of the API.
       tags:
-        - Automotive
+      - Automotive
       responses:
         '200':
           description: Success
@@ -48,3 +43,6 @@ components:
     bearerAuth:
       type: http
       scheme: bearer
+externalDocs:
+  description: Documentation
+  url: https://developer.ford.com/
