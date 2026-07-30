@@ -1,4 +1,18 @@
 aid: ford-motor
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ford-motor.png
 tags:
   - Fortune 100
 url: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/apis.yml
@@ -15,24 +29,18 @@ common:
   - type: LinkedIn
     url: https://www.linkedin.com/company/ford-motor-company
 apis:
-  - aid: ford-motor:ford-api
-    name: Ford Developer API
-    tags:
-      - Automotive
-      - Connected Vehicles
-      - IoT
-      - Telematics
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://api.ford.com
-    humanURL: https://developer.ford.com/
-    properties:
-      - url: https://developer.ford.com/
-        type: Documentation
-      - url: openapi/ford-motor-ford-api-openapi.yml
-        type: OpenAPI
-    description: >-
-      The Ford Developer API provides access to connected vehicle data, allowing developers to build applications that
-      interact with Ford vehicles. It includes APIs for vehicle status, location, remote commands, and diagnostics.
+- aid: ford-motor:ford-motor-automotive-api
+  name: ford-motor Automotive API
+  description: Automotive operations
+  humanURL: https://developer.ford.com/
+  baseURL: https://api.ford.com
+  tags:
+  - Automotive
+  properties:
+  - type: OpenAPI
+    url: openapi/ford-motor-automotive-api-openapi.yml
+  - type: Documentation
+    url: https://developer.ford.com/
 description: >-
   Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets, and services a full line
   of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln luxury vehicles.
