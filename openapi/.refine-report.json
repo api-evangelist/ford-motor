@@ -1,0 +1,14 @@
+{
+  "provider": "ford-motor",
+  "sources": [
+    "ford-motor-automotive-api-openapi.yml"
+  ],
+  "outputs": [
+    "ford-motor-automotive-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
