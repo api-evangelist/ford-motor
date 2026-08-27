@@ -1,4 +1,5 @@
 aid: ford-motor
+name: "Ford Motor Company"
 specificationVersion: '0.23'
 accessModel:
   pricing: freemium
