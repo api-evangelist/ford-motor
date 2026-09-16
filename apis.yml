@@ -1,5 +1,5 @@
 aid: ford-motor
-name: "Ford Motor Company"
+name: Ford Motor Company
 deliveryModel:
   model: unknown
   open_source: false
@@ -28,20 +28,22 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ford-motor.png
 tags:
-  - Fortune 100
+- Fortune 100
 url: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/apis.yml
-modified: '2026-05-19'
+modified: '2026-09-16'
 common:
-  - type: AgenticAccess
-    url: agentic-access/ford-motor-agentic-access.yml
-  - type: DomainSecurity
-    url: security/ford-motor-domain-security.yml
-  - type: Authentication
-    url: authentication/ford-motor-authentication.yml
-  - type: GitHubOrganization
-    url: https://github.com/ford
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/ford-motor-company
+- type: Website
+  url: https://ford.com
+- type: AgenticAccess
+  url: agentic-access/ford-motor-agentic-access.yml
+- type: DomainSecurity
+  url: security/ford-motor-domain-security.yml
+- type: Authentication
+  url: authentication/ford-motor-authentication.yml
+- type: GitHubOrganization
+  url: https://github.com/ford
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ford-motor-company
 apis:
 - aid: ford-motor:ford-motor-automotive-api
   name: ford-motor Automotive API
@@ -55,6 +57,6 @@ apis:
     url: openapi/ford-motor-automotive-api-openapi.yml
   - type: Documentation
     url: https://developer.ford.com/
-description: >-
-  Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets, and services a full line
-  of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln luxury vehicles.
+description: Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets,
+  and services a full line of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln
+  luxury vehicles.
