@@ -1,7 +1,9 @@
 ---
 title: Ford to launch eyes-off driving system in 2028, automaker ...
 url: https://www.autonews.com/ford/an-ces-2026-ford-doug-field-panel-0107/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ford Motor" press release artificial intelligence'
 position: 5
 source: serpapi-google

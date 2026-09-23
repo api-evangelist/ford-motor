@@ -1,7 +1,9 @@
 ---
 title: 'Ford''s Simple Vision for Smart Tech: Make It for Everyone'
 url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-affordable-smart-vehicle-technology-strategy
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ford Motor" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Ford Establishes New Product Creation and ...
 url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-establishes-product-creation-industrialization-organization
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ford Motor" press release artificial intelligence'
 position: 2
 source: serpapi-google

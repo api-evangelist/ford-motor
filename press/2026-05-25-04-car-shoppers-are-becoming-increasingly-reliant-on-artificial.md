@@ -1,7 +1,9 @@
 ---
 title: Car shoppers are becoming increasingly reliant on artificial ...
 url: https://www.facebook.com/jalopnik/posts/car-shoppers-are-becoming-increasingly-reliant-on-artificial-intelligence-ford-p/1300015721982247/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ford Motor" press release artificial intelligence'
 position: 4
 source: serpapi-google
