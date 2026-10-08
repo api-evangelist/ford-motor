@@ -32,6 +32,12 @@ tags:
 url: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/apis.yml
 modified: '2026-10-06'
 common:
+- type: Plans
+  url: plans/ford-motor-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/ford-motor-rate-limits.yml
+- type: FinOps
+  url: finops/ford-motor-finops.yml
 - url: https://www.ford.com/blog/
   type: Blog
 - type: Website
