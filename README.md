@@ -1,4 +1,4 @@
-# ford-motor (ford-motor)
+# Ford Motor Company
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,36 +66,115 @@
 
 Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets, and services a full line of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln luxury vehicles.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/apis.yml)
+**Areas:** Fortune 100
 
-## Timestamps
+## Ford Motor Company on APIs.io
 
-- **Modified:** 2026-05-19
+Everything profiled for Ford Motor Company is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ford-motor/](https://apis.io/providers/ford-motor/)** — or go straight to one of the APIs or properties below.
 
-## APIs
+### APIs (1)
 
-### Ford Developer API
+- [ford-motor Automotive API](https://apis.io/apis/ford-motor/ford-motor-automotive-api/) — Automotive operations
 
-The Ford Developer API provides access to connected vehicle data, allowing developers to build applications that interact with Ford vehicles. It includes APIs for vehicle status, location, remote commands, and diagnostics.
+### Published properties
 
-- **Human URL:** [https://developer.ford.com/](https://developer.ford.com/)
-- **Base URL:** `https://api.ford.com`
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Tags
+#### Agentic access (1)
 
-- Automotive
-- Connected Vehicles
-- IoT
-- Telematics
+Which operations an agent can call, which act, and which need a human in the loop.
 
-#### Properties
+- [Ford Motor Agentic Access](https://apis.io/agentic-access/ford-motor/ford-motor-agentic-access/)
 
-- [Documentation](https://developer.ford.com/)
-- [OpenAPI](openapi/ford-motor-ford-api-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/ford-motor-ford-api.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/ford-motor-ford-api.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### Collections (2)
 
-## Common Properties
+Postman and Open Collection request collections.
 
-- [GitHub Organization](https://github.com/ford)
-- [LinkedIn](https://www.linkedin.com/company/ford-motor-company)
+- [Ford Developer Automotive API](https://apis.io/collections/ford-motor/open-ford-motor-automotive-api/)
+- [Ford Developer API](https://apis.io/collections/ford-motor/open-ford-motor-ford-api/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ford Motor Authentication](https://apis.io/security/ford-motor/ford-motor-authentication/)
+- [Ford Motor Domain Security](https://apis.io/security/ford-motor/ford-motor-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ford Motor Plans Pricing](https://apis.io/plans/ford-motor/ford-motor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ford Motor Rate Limits](https://apis.io/rate-limits/ford-motor/ford-motor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ford Motor Finops](https://apis.io/finops/ford-motor/ford-motor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ford.com)
+- [Blog](https://www.ford.com/blog/)
+- [GitHub](https://github.com/ford)
+
+## API Evangelist rating
+
+**Kin Score 23.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 48.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 5.3 |
+
+**Agent readiness 20.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ford-motor/](https://apis.io/providers/ford-motor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ford Motor Company: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ford-motor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
